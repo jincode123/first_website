@@ -1,0 +1,96 @@
+:root {
+    --brand: #8246af;
+    --space-small: 8px;
+    --space-medium: 16px;
+    --space-large: 32px;
+    --space-xl: 64px;
+}
+
+/* header {
+    display: flex;
+    
+} */
+
+
+/* Utility Classes */
+.flex{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.logo{
+    max-height: 100px;
+    width:auto;
+}
+
+.hero{
+    background-color: #8246af;
+    /* border: 3px solid green; */
+    color: white;
+    /* padding: 5%; */
+    margin: 10px;
+}
+
+.padding-small{
+    padding: 8px;
+}
+
+.padding-medium{
+    padding: var(--space-medium);
+}
+
+.padding-large{
+    padding:32px;
+}
+
+.padding-xl{
+    padding: 64px;
+}
+
+article img{
+    width: 24px;
+}
+
+article.icon{
+    width:12px;
+}
+
+.icon{
+    width:24px;
+}
+p{
+    color: green;
+    
+}
+
+
+p{
+    color: black;
+
+}
+
+
+article{
+    background-color: #cdb5df;
+    border-radius: 8px;
+}
+
+.button {
+    display: block;
+    background-color: orange;
+    width: max-content;
+    padding: 1%;
+    border-radius: 9999px;
+}
+
+.gap {
+    gap: 10px;
+}

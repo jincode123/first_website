@@ -6,10 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SheCodes</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- this is a comment  -->
 </head>
     <body>
-        <header>
-            <img src="img/logo.png" alt="She Codes plus logo">
+        <header class="flex space-between padding-large">
+            <img src="img/logo.png" alt="She Codes plus logo" class="logo">
             <nav>
                 <ul>
                     <li><a href="#">Coders</a></li>
@@ -22,25 +24,32 @@
         </header>
 
         <main>
-            <section>
+            <section class="hero flex column padding-large">
                 <h1>A <span>movement</span> devoted to helping women learn tech skills.</h1>
-                <a href="#">Start Learning</a>
+                <a href="#" class="button">Start Learning</a>
             </section>
 
-            <section>
-                <img src="img/tools.svg" alt="tools">
-                <h1>1 Day Workshops</h1>
-                <p>Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.</p>
-                <a href="#">Apply</a>
-                <img src="img/lightning.svg" alt="lightning">
-                <h1>1 Week Flash</h1>
-                <p>Discover the fundamentals of tech in just one week. Flash is a one week taster program, aimed at teaching you the basics of the key emerging fields in tech.</p>
-                <a href="#">Apply</a>
-                <img src="img/plus.svg" alt="plus">
-                <h1>6 Month Plus</h1>
-                <p>She Codes Plus is a program providing an alternate pathway within tech. The Plus program is perfect for you if your desire is to enter a tech career.</p>
-                <a href="#">Apply</a>
-            </section>    
+
+            <section class="flex gap">
+                <article class="padding-large">
+                    <img src="img/tools.svg" alt="tools" class="icon">
+                    <h1>1 Day Workshops</h1>
+                    <p>Whether you're interested in coding as a career, or just looking to see what it's all about, our free one day workshops are the perfect starting point.</p>
+                    <a href="#" class="button">Apply</a>
+                </article>
+                <article class="padding-large">   
+                    <img src="img/lightning.svg" alt="lightning" class="icon">
+                    <h1>1 Week Flash</h1>
+                    <p>Discover the fundamentals of tech in just one week. Flash is a one week taster program, aimed at teaching you the basics of the key emerging fields in tech.</p>
+                    <a href="#"class="button">Apply</a>
+                </article>
+                <article class="padding-large">
+                    <img src="img/plus.svg" alt="plus" class="icon">
+                    <h1>6 Month Plus</h1>
+                    <p>She Codes Plus is a program providing an alternate pathway within tech. The Plus program is perfect for you if your desire is to enter a tech career.</p>
+                    <a href="#" class="button">Apply</a>
+                </article>    
+            </section>
 
             <section>
                 <h1>Get in touch</h1>
@@ -56,9 +65,9 @@
         <footer>
             <nav>
                 <ul>
-                    <li><a href="#"><img src="img/lightning.svg" alt="Instagram"></a></li>
-                    <li><a href="#"><img src="img/slack.svg" alt="Slack"></a></li>
-                    <li><a href="#"><img src="img/github.svg" alt="GitHub"></a></li>
+                    <li><a href="#"><img src="img/lightning.svg" alt="Instagram" class="icon"></a></li>
+                    <li><a href="#"><img src="img/slack.svg" alt="Slack" class="icon"></a></li>
+                    <li><a href="#"><img src="img/github.svg" alt="GitHub" class="icon"></a></li>
                 </ul>
             </nav>
             <div><p>&copy;Jinfeng Shan</p></div>
