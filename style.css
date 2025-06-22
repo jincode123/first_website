@@ -1,96 +1,54 @@
-:root {
-    --brand: #8246af;
-    --space-small: 8px;
-    --space-medium: 16px;
-    --space-large: 32px;
-    --space-xl: 64px;
+.form-section {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* header {
-    display: flex;
-    
-} */
-
-
-/* Utility Classes */
-.flex{
-    display: flex;
-    /* border: 1px solid red; */
+.form-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
 }
 
-.space-between{
-    justify-content: space-between;
+.form-group {
+    margin-bottom: 15px;
 }
 
-.column{
-    flex-direction: column;
-}
-
-.logo{
-    max-height: 100px;
-    width:auto;
-}
-
-.hero{
-    background-color: #8246af;
-    /* border: 3px solid green; */
-    color: white;
-    /* padding: 5%; */
-    margin: 10px;
-}
-
-.padding-small{
-    padding: 8px;
-}
-
-.padding-medium{
-    padding: var(--space-medium);
-}
-
-.padding-large{
-    padding:32px;
-}
-
-.padding-xl{
-    padding: 64px;
-}
-
-article img{
-    width: 24px;
-}
-
-article.icon{
-    width:12px;
-}
-
-.icon{
-    width:24px;
-}
-p{
-    color: green;
-    
-}
-
-
-p{
-    color: black;
-
-}
-
-
-article{
-    background-color: #cdb5df;
-    border-radius: 8px;
-}
-
-.button {
+.form-group label {
     display: block;
-    background-color: orange;
-    width: max-content;
-    padding: 1%;
-    border-radius: 9999px;
+    margin-bottom: 5px;
+    font-weight: bold;
 }
 
-.gap {
-    gap: 10px;
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
 }
